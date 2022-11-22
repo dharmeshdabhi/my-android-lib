@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
 
-        MySDK.mySDKCall()
+        MySDK.mySDKCall("Dharmesh")
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

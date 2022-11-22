@@ -6,5 +6,5 @@ package com.veco.mylibrary
  *
  */
 object MySDK {
-    fun mySDKCall() : String = "Yes, you are awesome"
+    fun mySDKCall(name : String) : String = "Yes, you are awesome $name"
 }
