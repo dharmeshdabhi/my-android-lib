@@ -18,3 +18,4 @@ dependencyResolutionManagement {
 rootProject.name = "MyLib"
 include ':app'
 include ':mylibrary'
+include ':my_lib_test'

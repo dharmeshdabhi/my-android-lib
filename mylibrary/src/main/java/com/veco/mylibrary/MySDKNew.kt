@@ -3,11 +3,11 @@ package com.veco.mylibrary
 import androidx.annotation.Keep
 
 /**
- * Created by Dharmesh on 23-11-2022.
+ * Created by Dharmesh on 31-12-2022.
  *
  *
  */
 @Keep
-object MySDK {
+public class MySDKNew {
     fun mySDKCall(name : String) : String = "Yes, you are awesome $name"
 }
